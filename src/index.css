@@ -1,13 +1,82 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
-    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+div {
+    display: inline-block
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
-    monospace;
+.s3-label {
+    letter-spacing: 1px;
+    border-radius: 100px;
+    background-color: #ff5152;
+    color: #fff;
+    left: 15px;
+    top: 15px;
+    width: 70px;
+    position: absolute;
+    font-size: 12px;
+    padding-top: 2px;
+    padding-bottom: 1px;
+}
+
+.s3-carousel {
+    z-index: -1;
+    width: 100%;
+    /* transform: translateX(-100%); */
+    display: grid;
+    grid-template-columns: 20% 20% 20% 20% 20%;
+    grid-template-rows: 20% 20% 20% 20% 20%;
+}
+
+.car-wrap {
+    width: 400px;
+    /* position: relative; */
+    top: 100;
+    left: 0;
+    grid-row-start: 3;
+    position: absolute;
+}
+
+.carousel__cell {
+    /* Add shadows to create the "card" effect */
+    /* padding-top: 30px; */
+    font-size: 20px;
+    font-weight: 300;
+    line-height: 25px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    text-align: center;
+    transform: translate(-500px);
+    transition: transform;
+    transition-delay: 2s;
+    /* create delay for transition */
+}
+
+.carousel__cell.active {
+    transform: translate(500px);
+    /* transition: opacity 1s; */
+    transition: transform 2s;
+}
+
+.card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+.container {
+    /* padding: 2px 16px; */
+    text-align: center;
+}
+
+.hard-img {
+    max-width: 100%;
+    height: auto;
+}
+
+.carousel__cell img {
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    margin-button: 0px;
+}
+
+.logo {
+    height: 100px;
+    width: 100px;
 }
