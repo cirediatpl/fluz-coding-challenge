@@ -15,7 +15,7 @@
 }
 
 .column-component {
-    flex-grow: 8;
+    /* flex-grow: 8; */
     position: relative;
     width: 515px;
     height: 800px;
