@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/fluz-coding-challenge/precache-manifest.2922db00c97dfe810a2a537c40551637.js"
+  "/fluz-coding-challenge/precache-manifest.9d2e57e04537d8d2fe19079b494320dc.js"
 );
 
 self.addEventListener('message', (event) => {
