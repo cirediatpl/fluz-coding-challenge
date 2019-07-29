@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/fluz-coding-challenge/static/css/main.1c1adc1e.chunk.css",
+    "main.js": "/fluz-coding-challenge/static/js/main.30f042e1.chunk.js",
+    "main.js.map": "/fluz-coding-challenge/static/js/main.30f042e1.chunk.js.map",
+    "runtime~main.js": "/fluz-coding-challenge/static/js/runtime~main.deab386e.js",
+    "runtime~main.js.map": "/fluz-coding-challenge/static/js/runtime~main.deab386e.js.map",
+    "static/js/2.c830b613.chunk.js": "/fluz-coding-challenge/static/js/2.c830b613.chunk.js",
+    "static/js/2.c830b613.chunk.js.map": "/fluz-coding-challenge/static/js/2.c830b613.chunk.js.map",
+    "index.html": "/fluz-coding-challenge/index.html",
+    "precache-manifest.8fd60f84a1670693098f4d8e5cdcab72.js": "/fluz-coding-challenge/precache-manifest.8fd60f84a1670693098f4d8e5cdcab72.js",
+    "service-worker.js": "/fluz-coding-challenge/service-worker.js",
+    "static/css/main.1c1adc1e.chunk.css.map": "/fluz-coding-challenge/static/css/main.1c1adc1e.chunk.css.map",
+    "static/media/itunes.jpg": "/fluz-coding-challenge/static/media/itunes.341c2ce9.jpg",
+    "static/media/itunes.svg": "/fluz-coding-challenge/static/media/itunes.f97adb3a.svg",
+    "static/media/nike.svg": "/fluz-coding-challenge/static/media/nike.0520f594.svg",
+    "static/media/nike.jpg": "/fluz-coding-challenge/static/media/nike.b965b1e3.jpg",
+    "static/media/panera.jpg": "/fluz-coding-challenge/static/media/panera.b870a7dd.jpg",
+    "static/media/panera.svg": "/fluz-coding-challenge/static/media/panera.ec920809.svg",
+    "static/media/starbucks.jpg": "/fluz-coding-challenge/static/media/starbucks.028c9ee1.jpg",
+    "static/media/starbucks.svg": "/fluz-coding-challenge/static/media/starbucks.99286d1e.svg"
+  }
+}
