@@ -1,6 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import CardContainer from './CardContainer.js'
+import ColumnContainer from './ColumnContainer.js'
 import './index.css';
 
 import image1 from './images/itunes/itunes.jpg'
@@ -23,7 +24,10 @@ const ASSETS = [
 
 function App() {
     return(
-        <CardContainer assets={ASSETS}/>
+        <div>
+            <CardContainer assets={ASSETS}/>
+            <ColumnContainer/>
+        </div>
     )
 }
 

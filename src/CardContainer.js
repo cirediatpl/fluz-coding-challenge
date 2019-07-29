@@ -1,36 +1,34 @@
 import React from 'react';
 import Card from './Card.js'
-// import image1 from './images/itunes/itunes.jpg'
-// import image2 from './images/nike/nike.jpg'
-// import image3 from './images/panera/panera.jpg'
-// import image4 from './images/starbucks/starbucks.jpg'
-
-// import svg1 from './images/itunes/itunes.svg'
-// import svg2 from './images/nike/nike.svg'
-// import svg3 from './images/panera/panera.svg'
-// import svg4 from './images/starbucks/starbucks.svg'
-
-// comment out the above
 
 class CardContainer extends React.Component {
     state = {
-        pointer: 0
+        pointer: 0,
+        time: 0
     };
 
-    incrementNumber() {
+    incrementPointer() {
         this.setState(state => ({
-            pointer: (state.pointer + 1) % 4
+            pointer: (state.pointer + 1) % 4,
+        }));
+    }
+
+    incrementZIndex() {
+        this.setState(state => ({
+            time: state.time + 1
         }));
     }
 
     componentDidMount() {
-        setInterval(() => this.incrementNumber(), 1000);
+        setInterval(() => this.incrementPointer(), 2000);
+        setTimeout(setInterval(() => this.incrementZIndex(), 2000), 2000)
     }
 
     render() {
         const assets = this.props.assets;
         const cards = assets.map((asset, index) => {
-            return <Card asset={asset} active={index === this.state.pointer} key={index}/>
+            const z_index = (3 - index);
+            return <Card asset={asset} active={index === this.state.pointer} z_index={z_index} time={this.state.time} key={index}/>
         })
 
         return (

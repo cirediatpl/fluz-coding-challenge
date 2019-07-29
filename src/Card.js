@@ -6,17 +6,18 @@ class Card extends React.Component {
     render() {
         const active = this.props.active;
         const createClassName = `carousel__cell${active ? ' active' : ''}`
+        const z_index = ((parseInt(this.props.z_index, 10) + parseInt(this.props.time, 10)) % 4)
         return (
-            <div className="car-wrap">
-                <div className={createClassName}>
+
+                <div className={createClassName} style={{zIndex: `${z_index}`}}>
                     <Button />
                     <div className="container">
-                        <img className="hard-img" src={this.props.asset.image} alt="Error" width="100%"/>
+                        <img className="hard-img" src={this.props.asset.image} alt="Error"/>
                         <p>You earned {this.props.asset.money}<br /> from {this.props.asset.user}</p>
                         <img className="logo" src={this.props.asset.svg} alt="Error" width="100%"/>
                     </div>
                 </div>
-            </div>
+
         )
     }
 }
