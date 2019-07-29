@@ -1,5 +1,7 @@
 # fluz-coding-challenge
 
+by Peter Hwang
+
 ## Solution
 
 The production version of the page can be found [here](https://cirediatpl.github.io/fluz-coding-challenge/) or at this url: https://cirediatpl.github.io/fluz-coding-challenge/
