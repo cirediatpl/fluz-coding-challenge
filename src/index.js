@@ -2,7 +2,7 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import CardContainer from './CardContainer.js'
 import ColumnContainer from './ColumnContainer.js'
-import './index_test.css';
+import './index.css';
 
 import image1 from './images/itunes/itunes.jpg'
 import image2 from './images/nike/nike.jpg'
