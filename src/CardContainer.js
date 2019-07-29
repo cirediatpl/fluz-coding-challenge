@@ -20,8 +20,8 @@ class CardContainer extends React.Component {
     }
 
     componentDidMount() {
-        setInterval(() => this.incrementPointer(), 2000);
-        setTimeout(setInterval(() => this.incrementZIndex(), 2000), 2000)
+        setInterval(() => this.incrementPointer(), 1600);
+        setTimeout(setInterval(() => this.incrementZIndex(), 1600), 1600)
     }
 
     render() {

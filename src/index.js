@@ -24,7 +24,7 @@ const ASSETS = [
 
 function App() {
     return(
-        <div>
+        <div className="flexbox">
             <CardContainer assets={ASSETS}/>
             <ColumnContainer/>
         </div>
