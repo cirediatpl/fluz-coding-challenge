@@ -32,7 +32,7 @@ To solve this issue, I looped through values of 0-3 for the z-indices. Looping v
 
 ## Suggestions
 
-In order to view the outlines of the carousel container and the text container components, you may comment in the grey borders in Chrome's developer tools. For the elements with class names of "s3-carousel" and "column component", feel free to comment back in the following css style: ```border: 3px solid grey``` which I have left in for the purposes of testing.
+In order to view the outlines of the carousel container and the text container components (the snow colored background may be difficult to see), you may comment in the grey borders in Chrome's developer tools. For the elements with class names of "s3-carousel" and "column component", feel free to comment back in the following css style: ```border: 3px solid grey``` which I have left in for the purposes of testing.
 
 ## Licensing
   React can be used by the conditions by the MIT License.
