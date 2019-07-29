@@ -1,19 +1,19 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "5b97ecd9a110cc691f4026fcf10017bc",
+    "revision": "6af7f1fe41b958f44044f9cb7b5d14a6",
     "url": "/fluz-coding-challenge/index.html"
   },
   {
-    "revision": "7eb18a95de522f1bec6e",
-    "url": "/fluz-coding-challenge/static/css/main.1c1adc1e.chunk.css"
+    "revision": "b92a9c1f69a5e4eeecf5",
+    "url": "/fluz-coding-challenge/static/css/main.d6c331b9.chunk.css"
   },
   {
     "revision": "015af1e8945680218359",
     "url": "/fluz-coding-challenge/static/js/2.c830b613.chunk.js"
   },
   {
-    "revision": "7eb18a95de522f1bec6e",
-    "url": "/fluz-coding-challenge/static/js/main.30f042e1.chunk.js"
+    "revision": "b92a9c1f69a5e4eeecf5",
+    "url": "/fluz-coding-challenge/static/js/main.95b7f2c4.chunk.js"
   },
   {
     "revision": "543da77ed7c1134c98b0",
