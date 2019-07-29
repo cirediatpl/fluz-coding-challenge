@@ -30,6 +30,10 @@ The auto-rotation feature of the carousel originally involved incrementing vario
 
 To solve this issue, I looped through values of 0-3 for the z-indices. Looping values in state or props (instead of growing indefinitely) is a good design practice.
 
+## Suggestions
+
+In order to view the outlines of the carousel container and the text container components, you may comment in the grey borders in Chrome's developer tools. For the elements with class names of "s3-carousel" and "column component", feel free to comment back in the following css style: ```border: 3px solid grey```
+
 ## Licensing
   React can be used by the conditions by the MIT License.
   **Resource:** [MIT License](https://opensource.org/licenses/MIT)
