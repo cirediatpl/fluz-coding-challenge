@@ -1,6 +1,6 @@
 # fluz-coding-challenge
 
-by Peter Hwang
+Peter Hwang
 
 ## Solution
 
