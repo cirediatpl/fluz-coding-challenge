@@ -10,7 +10,7 @@ The production version of the page can be found [here](https://cirediatpl.github
 
 ## Description
 
-This coding challenge solution completed uses React, JS, HTML, and CSS in order to replicate the carousel section of the Fluz homepage found on [https://fluz.app/](https://fluz.app/) using assets provided by the company. The front-end results contain basic responsive/mobile optimization.
+This coding challenge solution uses React, JS, HTML, and CSS in order to replicate the carousel section of the Fluz homepage found on [https://fluz.app/](https://fluz.app/) using assets provided by the company. The front-end results contain basic responsive/mobile optimization.
 
 Please feel free to contact me at peternhwang@gmail.com if you have any suggestions, comments, or concerns.
 
