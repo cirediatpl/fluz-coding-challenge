@@ -1,0 +1,147 @@
+.s3-carousel {
+    display: inline-block;
+    vertical-align: top;
+    position: relative;
+    width: 100%;
+    width: 600px;
+    height: 800px;
+    /* border: 3px solid grey; */
+    background-color: #f9f9f9;
+}
+
+.column-component {
+    display: inline-block;
+    vertical-align: top;
+    position: relative;
+    width: 600px;
+    height: 800px;
+    /* border: 3px solid grey; */
+    background-color: #f9f9f9;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    font-weight : thin;
+    line-height: 600px;
+}
+
+.s3-label {
+    letter-spacing: 1px;
+    border-radius: 100px;
+    background-color: #ff5152;
+    color: #fff;
+    left: 15px;
+    top: 15px;
+    width: 70px;
+    position: absolute;
+    font-size: 12px;
+    padding-top: 2px;
+    padding-bottom: 1px;
+}
+
+.car-wrap {
+    /* width: 400px;
+    top: 100;
+    left: 0;
+    grid-row-start: 3;
+    position: absolute;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    font-weight : thin; */
+}
+
+.carousel__cell {
+    height: 600px;
+    width: 380px;
+    /* min-height: 500px;
+    max-width: 500px; */
+    top: 100px;
+    left: 0;
+    grid-row-start: 3;
+    position: absolute;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    font-weight : thin;
+    text-align: center;
+    transform: translate(-200px);
+    transition: transform 0s cubic-bezier(.86,0,.07,1) 2s, opacity 2s cubic-bezier(.895,.03,.685,.22);
+    background-color: #fff;
+    border: 1px solid #e8e8e8;
+    border-radius: 5px;
+}
+
+.carousel__cell.active  {
+    transform: translate(204px);
+    transition: transform 2s cubic-bezier(.86,0,.07,1) 0s;
+}
+
+.carousel__cell.transparent  {
+    opacity: 0;
+}
+
+.carousel__cell>div p {
+    padding-top: 30px;
+    font-size: 20px;
+    font-weight: 300;
+    line-height: 25px;
+}
+
+/* .card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+} */
+
+.container {
+    background-color: white;
+}
+
+.hard-img {
+    width: auto;
+    max-width: 100%;
+    height: auto;
+}
+
+.carousel__cell img {
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    margin-bottom: 0px;
+}
+
+/* Apple */
+.carousel__cell:nth-of-type(1) .logo {
+    margin: 20px auto auto;
+    /* height: auto; */
+    position: relative;
+    /* height: 72px; */
+    width: 100px;
+    transform: translateY(-20px);
+    overflow: hidden;
+    margin:-21.875%
+}
+
+/* Nike */
+.carousel__cell:nth-of-type(2) .logo {
+    margin: 20px auto auto;
+    /* height: auto; */
+    position: relative;
+    /* height: 72px; */
+    width: 60px;
+    transform: translateY(-10px);
+}
+
+/* Panera */
+.carousel__cell:nth-of-type(3) .logo {
+    margin: 15px auto auto;
+    /* height: auto; */
+    position: relative;
+    /* height: 72px; */
+    width: 72px;
+    transform: translateY(-10px);
+}
+
+/* Starbucks */
+.carousel__cell:nth-of-type(4) .logo {
+    margin: 15px auto auto;
+    /* height: auto; */
+    position: relative;
+    /* height: 72px; */
+    width: 64px;
+    transform: translateY(-12px);
+}

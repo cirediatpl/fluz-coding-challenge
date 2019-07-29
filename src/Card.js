@@ -5,8 +5,8 @@ import Button from './Button.js'
 class Card extends React.Component {
     render() {
         const active = this.props.active;
-        const createClassName = `carousel__cell${active ? ' active' : ''}`
         const z_index = ((parseInt(this.props.z_index, 10) + parseInt(this.props.time, 10)) % 4)
+        const createClassName = `carousel__cell${active ? ' active' : ''}${z_index === 0 ? ' transparent' : ''}`
         return (
 
                 <div className={createClassName} style={{zIndex: `${z_index}`}}>
